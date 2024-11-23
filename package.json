@@ -1,0 +1,77 @@
+{
+	"name": "frontend-starter",
+	"license": "MIT",
+	"version": "1.5.6",
+	"author": "github.com/zakandaiev",
+	"description": "FrontEnd Starter - boilerplate for easy building sites using task manager Gulp 4",
+	"keywords": [
+		"frontend",
+		"starter",
+		"boilerplate",
+		"kit",
+		"gulp",
+		"html",
+		"css",
+		"sass",
+		"scss",
+		"javascript",
+		"js",
+		"es6",
+		"optimized",
+		"autoprefixer",
+		"babel",
+		"browsersync",
+		"404",
+		"grid",
+		"htaccess",
+		"robots.txt",
+		"sitemap.xml",
+		"favicon"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zakandaiev/frontend-starter"
+	},
+	"main": "index.js",
+	"scripts": {
+		"dev": "gulp",
+		"prod": "gulp --prod",
+		"build": "gulp --prod"
+	},
+	"browserslist": [
+		"last 10 versions",
+		"not dead"
+	],
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		],
+		"ignore": [
+			"./src/js/ingored.js"
+		]
+	},
+	"devDependencies": {
+		"@babel/core": "^7.23.0",
+		"@babel/preset-env": "^7.22.20",
+		"browser-sync": "^2.29.3",
+		"del": "^6.1.1",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-file-include": "^2.3.0",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-if": "^3.0.0",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-load-plugins": "^2.0.8",
+		"gulp-newer": "^1.4.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-terser": "^2.1.0",
+		"gulp-version-number": "^0.2.4",
+		"sass": "^1.68.0"
+	},
+	"dependencies": {
+		"reseter.css": "^2.0.0"
+	}
+}
